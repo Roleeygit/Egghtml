@@ -1,0 +1,143 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), 
+    url(../img/egg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+
+nav 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10rem;
+    padding-right: 2%;
+    font-size: 20px;
+    margin-bottom: 5rem;
+}
+
+
+nav  ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover
+{
+    transform: scale(1.5);
+}
+
+nav  ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav  ul li a:hover
+{
+
+    color: rgb(255, 187, 0);
+    transition: .1s;
+    padding: 1px ;
+    
+}
+
+.logo 
+{
+    font-size: 30px;
+    padding-left: 2%;
+}
+
+span
+{
+    color: rgb(255, 187, 0);
+}
+
+.button
+{
+    border: none;
+    background: rgba(255, 187, 0, 0.521);
+    padding:12px 25px;
+    color: #030303;
+    border-radius:15px;
+    font-weight: bold;
+    color: rgb(207, 204, 204);
+    text-decoration: none;
+}
+
+.button:hover
+{
+    transform: scale(1.25);
+}
+
+.page2
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), 
+    url(../img/.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+.home
+{
+    color: rgb(255, 0, 0);
+    transition: .1s;
+    padding: 1px ;
+}
+
+.textcontentone
+{
+
+    text-align: center;
+    padding: 20rem;
+    padding-block-start: 3rem;
+    padding-block-end: 2rem;
+    margin-bottom: 12rem;
+
+}
+
+.textcontenttwo
+{
+
+    text-align: center;
+    padding: 20rem;
+    padding-block-start: 3rem;
+    padding-block-end: 2rem;
+    margin-bottom:11rem;
+
+}
+
+
+.copyright
+{
+    text-align: center;
+    background-color: #030303;
+    margin-top: 3.8rem;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
