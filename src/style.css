@@ -19,6 +19,17 @@
     
 }
 
+.container2
+{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
+    url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
 nav 
 {
     display: flex;
@@ -29,6 +40,20 @@ nav
     padding-right: 2%;
     font-size: 20px;
     margin-bottom: 5rem;
+    background-color: #3634348e;
+}
+
+.nav2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10rem;
+    padding-right: 2%;
+    font-size: 20px;
+    margin-bottom: 5rem;
+    background-color: #3634348e;
 }
 
 
@@ -62,7 +87,8 @@ nav  ul li a:hover
 .logo 
 {
     font-size: 30px;
-    padding-left: 2%;
+    padding-left: 1%;
+    padding-right: 47%;
 }
 
 span
@@ -73,12 +99,12 @@ span
 .button
 {
     border: none;
-    background: rgba(255, 187, 0, 0.521);
+    background: rgb(255, 187, 0);
     padding:12px 25px;
     color: #030303;
     border-radius:15px;
     font-weight: bold;
-    color: rgb(207, 204, 204);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -126,7 +152,7 @@ span
     padding: 20rem;
     padding-block-start: 3rem;
     padding-block-end: 2rem;
-    margin-bottom:11rem;
+    margin-bottom:12.45rem;
 
 }
 
@@ -135,7 +161,7 @@ span
 {
     text-align: center;
     background-color: #030303;
-    margin-top: 3.8rem;
+    margin-top: 2rem;
     margin-left: 15%;
     margin-right: 15%;
 
